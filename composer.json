@@ -1,0 +1,41 @@
+{
+    "name": "istesitem/products",
+    "description": "IsteSitem Products Module",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "voyager",
+        "products"
+    ],
+    "homepage": "https://github.com/istesitem/products",
+    "readme": "README.md",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tanju Yildiz",
+            "email": "ben@tanjuyildiz.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/istesitem/products/issues"
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0",
+        "tcg/voyager": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "IsteSitem\\Products\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IsteSitem\\Products\\Providers\\ProductsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false
+}
